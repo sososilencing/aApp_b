@@ -1,7 +1,7 @@
 package servers
 
 import (
-	"exchange_nolves/model"
+	"v0/model"
 )
 
 const NovelWords = 2410

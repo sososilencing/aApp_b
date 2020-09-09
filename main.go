@@ -1,16 +1,18 @@
 package main
 
 import (
-	"exchange_nolves/controller"
-	"exchange_nolves/servers"
 	"github.com/gin-gonic/gin"
+	"v0/controller"
+	"v0/servers"
 )
 
 func main()  {
 	servers.Init()
 	App()
 }
-
+/*
+md5
+*/
 func App()  {
 	app := gin.Default()
 	//注册

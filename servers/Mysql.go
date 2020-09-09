@@ -1,14 +1,14 @@
 package servers
 
 import (
-	"exchange_nolves/model"
 	"github.com/jinzhu/gorm"
 	_ "github.com/jinzhu/gorm/dialects/mysql"
+	"v0/model"
 )
 
 var db *gorm.DB
 
-const SQL = "root:@tcp(localhost:3306)/nolves?charset=utf8"
+const SQL = "root:056608@tcp(localhost:3306)/novels?charset=utf8"
 
 func Init() {
 	db , _ = gorm.Open("mysql",SQL)

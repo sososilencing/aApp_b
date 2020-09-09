@@ -1,8 +1,6 @@
 package model
 
-import (
-	"github.com/gbrlsnchs/jwt"
-)
+import "github.com/gbrlsnchs/jwt/v3"
 
 type User struct {
 	Id int

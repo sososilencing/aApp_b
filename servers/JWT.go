@@ -1,9 +1,9 @@
 package servers
 
 import (
-	"exchange_nolves/model"
-	"github.com/gbrlsnchs/jwt"
+	"github.com/gbrlsnchs/jwt/v3"
 	"time"
+	"v0/model"
 )
 
 func getHs() *jwt.HMACSHA {
